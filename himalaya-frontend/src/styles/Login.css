@@ -1,0 +1,52 @@
+.login{
+    text-transform: uppercase;
+    width: 30vw;
+}
+.formEmail{
+    border-radius: 0%;
+    box-shadow: none !important;
+}
+
+.formPassLabel{
+    display: flex;
+    justify-content: space-between;
+}
+
+.formPassLabel a{
+    text-decoration: none;
+    color: gray;
+}
+
+.pass{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.formPassword{
+    border-radius: 0%;
+    box-shadow: none !important;
+}
+
+.btn.viewPass{
+    width: min-content ;
+    border-radius: 0px ;
+    background-color: #e0f7bc ;
+    color: black ;
+}
+
+.error{
+    color: red;
+    font-size: small;
+    text-align: start;
+}
+
+.register{
+    position: absolute;
+    margin-top: 20px;
+}
+
+.register a{
+    text-decoration: none;
+    color: black;
+    font-size: smaller;
+}

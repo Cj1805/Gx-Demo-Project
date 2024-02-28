@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400&display=swap');
+
+.container-fluid {
+  font-family: 'Libre Franklin', sans-serif !important;
+}
+
+.cartImg img{
+    height: 90px;
+}
+
+.cartItem{
+    display: flex;
+    border-top: 0.5px solid #80808082;
+    padding-top: 15px;
+    color: gray;
+    gap: 10px;
+}
+
+.cartQuantity{
+    display: flex;
+    width: 45%;
+    border: 0.5px solid black;
+}
+
+.cartQuantity .btn{
+    border-radius: 0px;
+    color: black;
+    background-color: white;
+}
+
+.cartQuantity input{
+    width: 30px;
+    border: none;
+}
+
+.cartQuantity .btn:hover{
+    border-radius: 0px;
+    color: black;
+    background-color: rgba(144, 142, 142, 0.772);
+}
+
+.cartItemDescription{
+    width: -webkit-fill-available;
+}
+
+.cartIcon{
+    width: 2em;
+    height: 2em;
+    cursor: pointer;
+}
+
+.cartDescription{
+    display: flex;
+    justify-content: space-between;
+    font-size: smaller;
+}
+
+.cartDescription .btn{
+    width: min-content;
+    border-radius: 0px;
+    background: none;
+    color: #808080bd;
+}
+
+.cartDescription .btn:hover{
+    width: min-content;
+    border-radius: 0px;
+    background: rgba(219, 213, 213, 0.689) !important;
+}
+
+.cartDescriptionBelow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+    color: #48966a;
+}
+

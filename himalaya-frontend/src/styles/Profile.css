@@ -1,0 +1,80 @@
+.profile{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile p{
+    font-size: xx-large;
+    font-weight: 300;
+    color: #82cf9a;
+}
+
+.profile .logout{
+    width: 10% ;
+    height: 10%;
+}
+
+.profileDetails{
+    width : 30%;
+    box-shadow : 0 4.5px 4.5px 4px #8da763;
+}
+
+.profileDetails p{
+    margin: 0px;
+}
+
+.address{
+    text-align: left;
+    width: 80%;
+    margin-left: 15%;
+    font-weight: 300;
+    margin-bottom: 15%;
+}
+.profileDetails a{
+    text-decoration: none;
+    color: black;
+    font-style: oblique;
+}
+
+.profileDetails a:hover{
+    text-decoration: none;
+    color: rgb(36, 127, 109);
+    font-style: normal;
+    font-weight: 700;
+}
+
+.orderLabel{
+    position: sticky;
+    top: 0;
+    background-color: #cee8c4;
+    z-index: 1;
+    border-bottom: 1px solid gray;
+}
+.orderHistory{
+    overflow-y: auto;
+    max-height: calc(100%-20%);
+}
+
+.profileDetails.order{
+    padding-top: 0% !important;
+    max-height: 250px;
+    width: 60%;
+    overflow-y: auto;
+}
+
+
+.orderItem{
+    text-align: justify;
+}
+
+
+.profileDetails.order .orderDetails{
+    display: flex;
+    gap: 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.orderDetails p{
+    font-weight: 300;
+}

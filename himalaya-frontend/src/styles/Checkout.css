@@ -1,0 +1,143 @@
+.checkoutCity {
+    display: grid;
+    grid-template-columns: 35% 35% 30%;
+}
+
+.shippingAddress form{
+    width: 90%;
+}
+
+.shippingAddress div{
+    margin-bottom: 1%;
+}
+
+.shippingAddress select{
+    width: 100%;
+}
+
+.shippingAddress input{
+    border: 1px solid #80808091;
+}
+
+.shippingAddress .form-floating input{
+    padding-left: 4%;
+}
+
+.shippingAddress label{
+    margin-left: 2%;
+}
+
+.checkoutInfo {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.checkoutProduct {
+    background-color: #cfcfcf70;
+}
+
+.checkoutItem {
+    display: flex;
+    color: gray;
+    gap: 10px;
+    margin: 2%;
+}
+
+
+.cartImg img {
+    height: 50px
+}
+
+.checkoutItemDesc {
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: space-between;
+    font-size: smaller;
+    align-items: center;
+}
+
+.subTotal {
+    border-top: 1px solid gray;
+    margin: 5% 2%;
+    font-size: smaller;
+}
+
+.subTotal p {
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 0%;
+}
+
+.Total {
+    display: flex;
+    margin: 0% 2%;
+    align-items: center;
+    padding: 5% 0%;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+}
+
+/* Shipping COmponent Css*/
+
+.shipping{
+    margin: 5%;
+}
+
+.shippingInfo{
+    padding: 1% 2%;
+    text-align: justify;
+    border: 1px solid grey;
+    border-radius: 10px;
+    font-size: smaller;
+}
+
+.shippingInfo div{
+    display: grid;
+    align-items: center;
+    padding: 1% 0%;
+    grid-template-columns: 18% 64% 18%;
+}
+
+.shippingInfo a{
+    text-align: end;
+    color: orange;
+    text-decoration: none;
+    font-size: smaller;
+}
+
+.shippingInfo label{
+    color: gray;
+    font-size: smaller;
+}
+
+.shippingInfo p{
+    margin: 0px;
+}
+
+.shippingType{
+    text-align: justify;
+}
+
+.shippingInfo .form-check input{
+    margin: 0px;
+}
+
+.shippingMethod{
+    padding: 1% 2%;
+    text-align: justify;
+    border: 1px solid grey;
+    border-radius: 10px;
+    font-size: smaller;
+}
+
+.shippingMethod .shipMethod{
+    display: grid;
+    align-items: center;
+    padding: 1% 0%;
+    grid-template-columns: 80% 20%;
+}
+
+.shipMethod p{
+    margin: 0%;
+    text-align: end;
+}

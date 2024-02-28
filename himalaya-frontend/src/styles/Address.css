@@ -1,0 +1,46 @@
+.addressForm{
+   width: 75%;
+   text-align: justify;
+   text-transform: uppercase;
+}
+
+.formDisplay{
+    width: max-content;
+    border-radius: 0;
+    background: #196640e3;
+}
+
+.addressForm input{
+    height: 35px;
+}
+
+.addressForm .row{
+    gap: 0px;
+    margin-bottom: 15px;
+}
+
+.addressForm .btn{
+    width: max-content;
+}
+
+.names{
+    display: grid;
+    padding: 0%;
+    margin-right: 10px;
+}
+
+.displayAddress{
+    text-align: justify;
+    margin: 3%;
+    border-bottom: 1px solid #0000004d;
+}
+
+.displayAddress p{
+    padding: 0px;
+    margin: 0px;
+}
+
+.displayAddress .btn{
+    width: max-content;
+    margin-bottom: 30px;
+}

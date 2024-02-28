@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "title": "Himalaya Immunity Boosters (Tablets and Syrups)",
+        "imageUrl":"../../images/dashboard/Himalaya-Immunity-Boosters-Banner.png",
+        "category": "General Health",
+        "description": "Adopting a healthy and balanced diet, exercising regularly, maintaining mental health, and most importantly, preparing the immune system are critical. ..."
+    },
+    {
+        "id": 2,
+        "title": "Kennel Cough in Dogs (Symptoms, Treatment, and Prevention)",
+        "imageUrl": "../../images/dashboard/Kennel-Cough-in-Dogs.jpeg",
+        "category": "Pet Care",
+        "description": "Kennel cough, also known as canine infectious tracheobronchitis, is a contagious upper respiratory tract infection commonly seen among dogs that are..."
+    }
+]

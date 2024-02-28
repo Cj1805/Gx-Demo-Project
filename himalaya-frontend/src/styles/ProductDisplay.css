@@ -1,0 +1,112 @@
+.form-select{
+    justify-self: center;
+    width: min-content;
+    padding: 0px 30px;
+    padding-left: 10px;
+    border: 1px solid #00000047;
+    border-radius: 0px;
+    font-size: small;
+}
+
+.sortFilter{
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    margin-bottom: 6em;
+}
+
+.filter{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.filter button{
+    padding: 2px 20px;
+    background: transparent;
+    color: black;
+    height: 30px;
+    font-size: small;
+    border-radius: 0px;
+    border: 1px solid #00000047;
+}
+
+.sortFilter .btn.btn-primary:hover{
+    background-color: transparent;
+    color: black;
+    border-radius: 0px;
+    border: 1px solid #00000047;
+}
+
+.sortFilter .btn.btn-primary:active{
+    background-color: transparent;
+    color: black;
+    border-radius: 0px;
+    border: 1px solid b#00000047;
+}
+
+.sortFilter .btn.show{
+    background-color: transparent;
+    color: black;
+    border-radius: 0px;
+    border: 1px solid #00000047;
+}
+
+.sortFilter .dropdown-menu.show{
+    margin-left: 0px;
+    display: block;
+    padding: 10px;
+}
+
+.sortFilter .dropdown-menu.show .row{
+    margin-bottom: 20px;
+}
+
+.resetBtn{
+    width: fit-content;
+    border-radius: 0px;
+    background: #27968a;
+}
+
+.resetBtn :hover{
+    color: #000;
+    background-color:#27968a !important ;
+}
+
+
+.col .form-control{
+    padding: 0px;
+}
+
+.col input{
+    border-radius: 0px;
+    border: 1px solid black;
+    font-size: smaller;
+    font-weight: 300;
+}
+
+.rc-slider{
+    height: 25px;
+}
+.rc-slider-track{
+    background-color: black;
+}
+
+.rc-slider-handle{
+    background-color: #000;
+    border: solid 2px #000000;
+    cursor: col-resize;
+    opacity: 1;
+    width: 18px;
+    height: 18px;
+    margin-top: -7px;
+}
+
+.rc-slider-handle:hover {
+    border-color: black;
+}
+
+.rc-slider-handle-dragging.rc-slider-handle-dragging.rc-slider-handle-dragging{
+    border-color: black;
+    box-shadow: 0 0 0 0;
+}

@@ -1,0 +1,36 @@
+.disease-link{
+    display: flex;
+    margin: 30px;
+    justify-content: space-around;
+}
+
+.disease-link img{
+    height: fit-content;
+    width: 300px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner img{
+    width: 400px;
+    height: 400px;
+}
+
+.products{
+    display: grid;
+    margin-top: 50px;
+}
+
+.viewAll{
+    background-color: #087e06c2;
+    border: none;
+    width: 120px !important;
+    margin: 20px;
+}
+
+.promo{
+    width: -webkit-fill-available;
+}

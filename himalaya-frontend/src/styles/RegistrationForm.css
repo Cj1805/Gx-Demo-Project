@@ -1,0 +1,49 @@
+.registeration{
+    text-transform: uppercase;
+    width: 30vw;
+}
+
+.container input{
+    box-shadow: none !important;
+}
+
+.mb-3{
+    text-align-last: left;
+}
+
+.btn {
+    width: -webkit-fill-available;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: rgba(4, 78, 16, 0.81);
+    border: none;
+}
+
+.btn.btn-primary:hover{
+    background-color: rgba(6, 153, 30, 0.81);
+    border-radius: 5px;
+}
+
+.pass{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.passVisible{
+    width: min-content;
+    border-radius: 0px;
+    background-color: #e0f7bc;
+    color: black;
+}
+
+.form-label{
+    font-weight: 400;
+    font-size: smaller;
+}
+
+.errors{
+    border: 1px solid red;
+    background: #fbdfdf69;
+    text-align-last: start;
+    font-size: small;
+}
